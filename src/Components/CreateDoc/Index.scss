@@ -1,0 +1,21 @@
+.new-doc{
+    background-color: rgb(238, 226, 226);
+    display: flex;
+    justify-content: center;
+    
+    .new-doc-container {
+        width: 70%;
+        .create-card{
+            width: 150px;
+            height: 200px;
+            cursor: pointer;
+            border: 1px solid rgb(196, 191, 191);
+            border-radius: 10px;
+            background-color: whitesmoke;
+        }
+
+        .create-card:hover{
+            border: 1px solid rgb(169, 169, 212);
+        }
+    }
+}

@@ -1,0 +1,36 @@
+
+.edit-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.react-icons {
+    margin: 30px;
+    position: absolute;
+    left: 7px;
+    cursor: pointer;
+}
+
+.edit-container {
+    width: 95%;
+    margin-top: 100px;
+    .ql-container.ql-snow{
+        border: none;
+        outline: none;
+    }
+    .ql-toolbar.ql-snow{
+        border: none;
+        outline: none;
+    }
+}
+
+.input-style {
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    outline: none;
+    border: none;
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
